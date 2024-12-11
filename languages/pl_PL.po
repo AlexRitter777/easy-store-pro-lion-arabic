@@ -1,0 +1,52 @@
+# Copyright (C) 2024 Alexej Bogačev
+# This file is distributed under the same license as the EasyStore Pro RW extension theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: EasyStore Pro RW extension 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/easy-store-pro-"
+"lion\n"
+"POT-Creation-Date: 2024-08-14T15:14:32+03:00\n"
+"PO-Revision-Date: 2024-08-14 14:26+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Domain: easy-store-pro-lion\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "EasyStore Pro RW extension"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "This is a child theme of EasyStore Pro."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Alexej Bogačev"
+msgstr ""
+
+#: functions.php:108
+msgid ""
+"If you need an invoice addressed differently from the delivery address, "
+"please fill in the <i style=\"text-transform: capitalize\">billing address</"
+"i> fields and then separately fill the <i style=\"text-transform: "
+"capitalize\">shipping address</i> fields."
+msgstr ""
+"Jeśli potrzebujesz faktury na adres inny niż adres dostawy, proszę wypełnić "
+"pola <i style=\"text-transform: capitalize\">adres rozliczeniowy</i>, a "
+"następnie osobno wypełnić pola <i style=\"text-transform: "
+"capitalize\">adres dostawy</i>."
+
+#: functions.php:109
+msgid ""
+"Please double-check all the information, as invoices cannot be changed to a "
+"different name."
+msgstr ""
+"Proszę dokładnie sprawdzić wszystkie dane, ponieważ faktur nie będzie można "
+"zmienić na inne nazwisko."

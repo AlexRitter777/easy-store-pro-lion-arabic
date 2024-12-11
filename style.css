@@ -1,0 +1,323 @@
+/*
+Theme Name: EasyStore Pro RW extension Arabic edition
+Template: easy-store-pro
+Author: Alexej Bogačev (RAIN WOLF s.r.o.)
+Description: This is a child theme of EasyStore Pro.
+Version: 1.0.0
+*/
+
+
+
+h2.woocommerce-loop-product__title {
+    height: 70px;
+    overflow: overlay;
+    font-size: 0.9em;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.es-cat-products-wrapper li {
+
+    width: 23%!important;
+}
+
+#site-navigation ul li a {
+    font-weight: 600;
+}
+
+.widget_product_categories .widget-title {
+    padding-top: 20px!important;
+}
+
+.woocommerce .product-categories li a {
+    margin-bottom: 7px!important;
+}
+
+.cat-item.current-cat a {
+    color: black;
+}
+
+
+.es-section-wrapper .mt-container {
+    width: unset;
+}
+
+.front-page-widgets-area {
+    float: left;
+    width: 73%;
+}
+
+
+.es-lion-notice {
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    position: relative;
+
+}
+
+
+.es-lion-notice-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+
+.es-lion-is-dismissible {
+    position: relative;
+    padding-right: 35px;
+}
+
+
+/* Advanced product search "Hide category select" */
+.advance-product-search .woocommerce-product-search select{
+    display: none;
+}
+
+/* YouTube icon color */
+.es-social-icons-wrapper a .fa-youtube-play {
+    color: #f20914;
+}
+
+
+.widget_product_categories .widget-title{
+    width: 98%!important;
+    font-size: 18px!important;
+}
+
+.widget_product_categories .widget-title i {
+    display: none;
+}
+
+.es-cat-products-view-more {
+    position: relative!important;
+    text-align: center!important;
+}
+
+.es-cat-products-view-more a:hover {
+    cursor: pointer;
+}
+
+/*--------Login form----------*/
+.woocommerce {
+    border:none!important;
+}
+
+/*--------Contact form----------*/
+.everest-forms-submit-button {
+    background-color: #333!important;
+    border:none!important;
+    border-radius: 0!important;
+}
+
+
+@media (max-width: 840px) {
+
+    .widget_product_categories {
+        font-size: 0.9em;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .es-cat-products-wrapper .product {
+        width: 48%!important;
+    }
+
+
+    .front-page-widgets-area {
+        width: 100%;
+    }
+
+    #sidebar-shop{
+        text-align: center;
+    }
+
+    .widget_product_categories {
+        padding-bottom: 0!important;
+        margin-bottom: 0!important;
+
+    }
+
+    .widget_product_categories  .widget-title {
+        border: 1px solid #337ebf;
+        padding: 10px;
+        background-color: #337ebf;
+        color: #fff;
+        margin: 10px auto 10px;
+        width: 50%;
+        cursor: pointer;
+    }
+
+    .widget_product_categories ul {
+        margin-top: 10px!important;
+        display: none;
+
+    }
+
+    .custom-header {
+        margin-bottom: 10px!important;
+    }
+
+    .mCSB_inside>.mCSB_container {
+        margin-right: 0!important;
+    }
+
+
+    .widget_product_categories .widget-title i {
+        display: unset!important;
+    }
+
+    .es-top-header-wrap {
+        display: none!important;
+    }
+
+    .es-header-logo-wrapper{
+        padding: 10px 0!important;
+    }
+
+    .es-header-area-cart-wrapper{
+        display: none!important;
+    }
+
+    .easy_store_advanced_product_search .search-field {
+        width: 90%!important;
+    }
+
+    .easy_store_advanced_product_search{
+        width: 96% !important;
+        margin: 0 auto 0;
+    }
+
+    .easy_store_advanced_product_search form {
+        margin-bottom: 0!important;
+    }
+
+    #site-header-cart {
+        margin-top: 0!important;
+        margin-right: 10px!important;
+        top: 10px!important;
+        float: right!important;
+
+    }
+
+    #site-header-cart a {
+        border-color: #ffffff!important;
+        color: #ffffff!important;
+    }
+
+    #site-header-cart .cart-icon {
+        width: 30px!important;
+        height: 30px!important;
+        line-height: 28px!important;
+        font-size: 12px!important;
+    }
+
+    #site-header-cart .count{
+        width: 15px!important;
+        height: 15px!important;
+        line-height: 15px!important;
+        font-size: 8px!important;
+    }
+
+    .es-wishlist-wrap{
+        top: 10px!important;
+        position: relative!important;
+        margin-top: 0!important;
+        float: right!important;
+        margin-right: 15px!important;
+    }
+
+    .es-wishlist-wrap a{
+        border-color: #ffffff!important;
+        color: #ffffff!important;
+        width: 30px!important;
+        height: 30px!important;
+        line-height: 28px!important;
+        font-size: 12px!important;
+    }
+
+    .es-wishlist-wrap i{
+        line-height: 31px!important;
+        font-size: 12px!important;
+    }
+
+    .es-wishlist-wrap .es-wl-counter {
+        color: #ffffff!important;
+        background: inherit!important;
+        width: 15px!important;
+        height: 15px!important;
+        line-height: 15px!important;
+        font-size: 8px!important;
+    }
+
+    .widget_product_categories .widget-title {
+        margin-top: 0!important;
+    }
+
+    .site-header {
+        margin-bottom: 10px!important;
+    }
+
+    .woocommerce-products-header .easy_store_advanced_product_search {
+        display: none!important;
+    }
+
+    .custom-header {
+        padding: 6px 0!important;
+    }
+
+    .custom-header .entry-title {
+        font-size: 20px!important;
+
+    }
+
+    .custom-header .trail-items {
+        font-size: 12px;
+    }
+
+    .woocommerce ul.products {
+        padding: 0 8px;
+    }
+
+    .custom-header .page-title {
+        font-size: 20px!important;
+    }
+
+    .woocommerce ul.products li.product .woocommerce-loop-product__title {
+        font-size: 16px!important;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    /*.es-cat-products-wrapper .product {
+        width: 97% !important;
+    }*/
+
+    .widget_product_categories .widget-title {
+        font-size: 1.3em;
+    }
+
+    .easy_store_advanced_product_search .search-field {
+        width: 90%!important;
+    }
+
+    .woocommerce ul.products li.product .woocommerce-loop-product__title {
+        font-size: 12px!important;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .widget_product_categories .widget-title {
+        font-size: 1.1em;
+    }
+
+}
