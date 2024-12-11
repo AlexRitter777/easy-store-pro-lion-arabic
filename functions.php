@@ -55,14 +55,14 @@ if ( ! function_exists( 'easy_store_pro_lion_front_page_side_bar_area' ) ) :
         }
     }
 endif;
-add_action( 'easy_store_before_content', 'easy_store_pro_lion_front_page_side_bar_area', 6 ); //Here priority is set if tou want to show sidebar before home page widgets (4) or after (6). Widgets have default priority 5.
+add_action( 'easy_store_before_content', 'easy_store_pro_lion_front_page_side_bar_area', 4 ); //Here priority is set if tou want to show sidebar before home page widgets (4) or after (6). Widgets have default priority 5.
 
 
 // Remove the current hook for the sidebar, if it hasn't been removed already
 remove_action( 'woocommerce_sidebar', 'easy_store_woocommerce_get_sidebar', 10 );
 
 // Add a new hook for the sidebar before the list of products
-//add_action( 'woocommerce_before_main_content', 'easy_store_woocommerce_get_sidebar', 1);
+add_action( 'woocommerce_before_main_content', 'easy_store_woocommerce_get_sidebar', 1);
 
 // Add sidebar before the page content
 add_action( 'easy_store_before_page_content', 'easy_store_woocommerce_get_sidebar', 1);
