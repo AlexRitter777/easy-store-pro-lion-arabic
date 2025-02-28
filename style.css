@@ -3,7 +3,7 @@ Theme Name: EasyStore Pro RW extension Arabic edition
 Template: easy-store-pro
 Author: Alexej Bogačev (RAIN WOLF s.r.o.)
 Description: This is a child theme of EasyStore Pro.
-Version: 1.1.1
+Version: 1.1.2
 */
 
 
@@ -322,7 +322,7 @@ h2.woocommerce-loop-product__title {
         width: 98% !important;
         height: 44px !important;
         padding-right: 2%;
-        -webkit-appearance: none;
+        /*-webkit-appearance: none;*/
         -webkit-border-radius: 0;
     }
 
